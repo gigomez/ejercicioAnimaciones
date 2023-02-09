@@ -1,0 +1,46 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container {
+
+    margin: auto;
+    width: 90%;
+    min-height: 100vh;
+    background-color: rgba(32, 178, 170, 0.1);
+
+}
+
+.btn-modern {
+    padding: 6px;
+    width: 20%;
+    height: 20%;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: aquamarine;
+    
+}
+
+.btn-modern:hover{
+    background-color: skybluex;
+    animation: traslacion 0.4s ease-in-out infinite;
+    color: green;
+    box-shadow: none;
+    box-shadow: 10px 5px 5px gray;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: purple;
+        transform: translateX(0px) translateY(5px);
+    }
+
+}   
